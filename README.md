@@ -1,5 +1,5 @@
 
-#🚗🔋 EV Smart Rerouting with SUMO + TraCI
+🚗🔋 EV Smart Rerouting with SUMO + TraCI
 
 This project demonstrates how an electric vehicle (EV) can automatically reroute to the nearest charging station when its battery drops below a threshold, wait until it is recharged, and then resume its original trip.
 
