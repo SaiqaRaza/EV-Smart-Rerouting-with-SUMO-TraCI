@@ -1,0 +1,20 @@
+<routes>
+    <!-- Define electric vehicle type with battery -->
+    <vType id="ElectricVehicle" vClass="passenger"
+           accel="2.6" decel="4.5" sigma="0.5"
+           length="5.0" maxSpeed="13.9"
+           guiShape="passenger" color="0,255,0"
+           emissionClass="Energy/unknown"
+           energyStorage="battery"
+           energyConsumption="5.0">
+        <param key="device.battery.maximumBatteryCapacity" value="10000"/>
+        <param key="device.battery.actualBatteryCapacity" value="1000"/>
+        <param key="has.battery.device" value="true"/>
+    </vType>
+
+    <!-- A valid loop route -->
+    <route id="r0" edges="2i 1o 51i 51o 1i 2o 52i 52o 2i 4o 54i 54o 4i 3o 53i 53o 3i"/>
+
+    <!-- Vehicle loops and starts at low battery -->
+    <vehicle id="ev1" type="ElectricVehicle" route="r0" depart="0" repeat="true"/>
+</routes>

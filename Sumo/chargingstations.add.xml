@@ -1,0 +1,16 @@
+<additional>
+  <chargingStation id="CS1"
+                   lane="2i_0"
+                   startPos="0"
+                   endPos="15"
+                   power="150000"
+                   efficiency="0.9"
+                   type="ElectricVehicle"/>
+<chargingStation id="CS2"
+                   lane="3o_0"
+                   startPos="0"
+                   endPos="15"
+                   power="150000"
+                   efficiency="0.9"
+                   type="ElectricVehicle"/>
+</additional>

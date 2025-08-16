@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo.net.xml"/>
+        <route-files value="sumo.rou.xml"/>
+        <additional-files value= "chargingstations.add.xml"/>
+       
+    </input>
+
+    <time>
+        <begin value="0"/>
+    </time>
+ <output>
+        <battery-output value="battery_output.xml"/>
+    </output>
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+      <delay value="120"/>
+
+
+</configuration>
